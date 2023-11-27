@@ -13,7 +13,7 @@
 
 <style>
   body {
-    background-color: #15111d;
+    background-color: #120D17;
     text-decoration: none;
     color: white;
     max-width: 100%;

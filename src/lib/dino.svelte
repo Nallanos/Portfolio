@@ -90,17 +90,17 @@
   }
   .game-over {
     margin-top: 50px;
-    background-color: #15111d;
+    background-color: #120D17;
     display: flex;
     align-items: center;
     justify-content: center;
   }
   .restart {
-    background-color: #15111d;
+    background-color: #120D17;
     border: 0px;
   }
   .restart > img {
-    background-color: #15111d;
+    background-color: #120D17;
     width: 50px;
   }
   .container {

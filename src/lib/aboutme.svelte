@@ -21,19 +21,46 @@
 
   <div class="container">
     <h1>Main stack</h1>
-    <div class="box">
-      <img alt="" src="public/img/html51.jpg" />
-    </div>
+      <div class="icon-box">
+        <img alt="" src="/svelte.png" class="icon"/>
+        <img alt="" src="/html.png" class="icon"/>
+        <img alt="" src="/css.png"class="icon"/>
+      </div>
+      <img alt="" src="/ts.png" class="icon ts-icon"/>
   </div>
+  <div class="rules-container container">
+    <h1>Game Rules</h1>
+        <div class="text">
+            <p>Press space for jump</p>
+            <p>Dodge the cactus</p>
+            <p>Press the restart button for restart</p>
+        </div>
+    </div>
 </div>
 
 <style>
+  .icon-box{
+    height: 90%;
+    width: 100%;
+  }
+  .icon{
+    margin-top: 35px;
+    width: 60px;
+    height: 69px;
+    margin-left: 30px;
+  }
+  .ts-icon{
+    margin-left: 40%;
+    margin-bottom: 20%;
+  }
   .main {
     display: flex;
     flex-direction: row;
   }
   .box {
     margin: 20px;
+    widows: 80%;
+    height: 80%;
   }
   .title {
     font-size: 50px;
@@ -47,8 +74,8 @@
     justify-content: center;
     display: flex;
     border-radius: 6px;
-    background-color: #3417871a;
-    width: 20%;
+    background-color: #1B1421;
+    width: 16.5%;
     margin-left: 180px;
     margin-top: 30px;
     flex-direction: column;
@@ -57,4 +84,20 @@
     margin: 8px auto;
     margin-bottom: auto;
   }
+  .text>p{
+        margin-bottom: 7px;
+    }
+    .rules-container>h1{
+        margin-top: 7px;
+        margin-bottom: 7px;
+    }
+    .rules-container>*{
+        margin-left: 17px;
+    }
+    .rules-container{
+        background-color:#1B1421 ;
+        width: 30%;
+        height: 160px;
+    }
+  
 </style>

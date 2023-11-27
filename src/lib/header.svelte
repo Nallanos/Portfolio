@@ -19,7 +19,7 @@
     font-size: 30px;
   }
   header {
-    background-color: black;
+    background-color: #1B1421;
     height: 11%;
     display: flex;
     flex-wrap: wrap;
@@ -51,7 +51,7 @@
     border: 2px;
   }
   .contact:hover {
-    background-color: black;
+    background-color: #1B1421;
     color: white;
     border-color: white;
     border-right: 5px;
