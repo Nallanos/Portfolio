@@ -33,7 +33,7 @@
         <div class="text">
             <p>Press space for jump</p>
             <p>Dodge the cactus</p>
-            <p>Press the restart button for restart</p>
+            <p>Press the restart button for restart the game</p>
         </div>
     </div>
 </div>

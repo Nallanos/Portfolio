@@ -1,12 +1,12 @@
 <script>
   import Dino from "$lib/dino.svelte";
-  import About from "$lib/aboutme.svelte";
+  import Main from "$lib/main-content.svelte";
   import Header from "$lib/header.svelte";
 </script>
 
 <body>
   <Header />
-  <About />
+  <Main />
   <Dino />
   <slot />
 </body>
